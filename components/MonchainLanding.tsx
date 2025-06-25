@@ -734,10 +734,10 @@ const MonchainLanding = () => {
                 Monchain
               </span>
                         </div>
-                        <div className="text-gray-400 text-center md:text-right">
+                        <p className="text-gray-400 text-center md:text-right">
                             <p>© 2025 Monchain. All rights reserved.</p>
                             <p className="text-sm mt-2">Building the future of decentralized infrastructure</p>
-                        </div>
+                        </p>
                     </div>
                 </div>
             </footer>
