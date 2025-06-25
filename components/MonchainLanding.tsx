@@ -17,7 +17,7 @@ const MonchainLanding = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const copyToClipboard = (text, type) => {
+    const copyToClipboard = (text: string, type: 'rpc' | 'chainId') => {
         navigator.clipboard.writeText(text);
         if (type === 'rpc') {
             setCopiedRPC(true);
